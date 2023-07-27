@@ -65,17 +65,20 @@
   font-style: italic;
   font-weight: 700;
   font-size: 0.8em;
+  text-indent: 10px;
 }
 
 .form-input input:focus {
+  text-indent: 12px;
   outline: 0;
+  font-weight: 400;
 }
 
-.form-input input::placeholder {
+/* .form-input input::placeholder {
   padding-left: 10px;
   font-size: small;
   font-weight: 200;
-}
+} */
 
 .loginBtn {
   background-color: var(--color-black);
